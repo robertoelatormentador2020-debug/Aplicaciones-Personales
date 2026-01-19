@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Esoteric & Akashic Astrology AI</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #050510;
+      color: #e2e8f0;
+      font-family: 'Inter', sans-serif;
+      margin: 0;
+      overflow-x: hidden;
+    }
+    h1, h2, h3, .mystical-font {
+      font-family: 'Cinzel', serif;
+    }
+    .cosmic-gradient {
+      background: radial-gradient(circle at center, #1e1b4b 0%, #020617 100%);
+    }
+    .glow-purple {
+      box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+    }
+    .glass {
+      background: rgba(15, 23, 42, 0.7);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    @keyframes pulse-gold {
+      0%, 100% { opacity: 0.8; }
+      50% { opacity: 0.4; }
+    }
+    .animate-pulse-gold {
+      animation: pulse-gold 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+  </style>
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.3",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.3/",
+    "react/": "https://esm.sh/react@^19.2.3/",
+    "@google/genai": "https://esm.sh/@google/genai@^1.37.0"
+  }
+}
+</script>
+</head>
+<body class="cosmic-gradient min-h-screen">
+  <div id="root"></div>
+</body>
+</html>
